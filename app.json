@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Mindlink",
+    "slug": "mindlink",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E0F17"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.mindlink.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mindlink.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0E0F17"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e963dea1-671e-44ab-ae7d-15eefd9ba695"
+      }
+    }
+  }
+}
