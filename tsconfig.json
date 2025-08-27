@@ -1,1 +1,19 @@
-{"compilerOptions": {"target": "es6","module": "commonjs","strict": true}}
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@core/*": ["src/core/*"],
+      "@modules/*": ["src/modules/*"],
+      "@components/*": ["src/components/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@lib/*": ["src/lib/*"],
+      "@types/*": ["src/types/*"],
+      "@tests/*": ["src/tests/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
